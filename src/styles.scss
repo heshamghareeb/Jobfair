@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+//custom table
+th {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 18px !important;
+  border: 1px solid #152C5B !important;
+  background: #152c5bcf !important;
+  color: #fff !important;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+  color: #4F4F4F;
+  border: 1px solid #152C5B;
+
+  td:not(:last-child) {
+    padding-top: 1.5rem;
+  }
+}
+
+//buttons
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem .8rem;
+  transition: all 0.25s;
+  &.primary {
+    background-color: #3252dfda;
+    color: #fff;
+    border: 1px solid #3252dfda;
+    &:hover {
+      color: #3252dfda;
+       background-color: #fff;
+     }
+  }
+
+}
+
+.text-primary-color{
+  color: #152C5B;;
+}
